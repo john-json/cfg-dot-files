@@ -1,0 +1,38 @@
+# Main Colors
+unrecognized_file: lightgray
+recognized_file: gray
+dir: gray
+
+# Link
+dead_link: red
+link: blue
+
+# Access Modes
+write: yellow
+read: gray
+exec: red
+no_access: dimgray
+
+# Age
+day_old: lightgray
+hour_old: white
+no_modifier: darkgray
+
+# File Size
+file_large: white
+file_medium: lightgray
+file_small: darkgray
+
+# Random
+report: white
+user: lightgray
+tree: dimgray
+error: red
+normal: darkgray
+
+# Git
+addition: blue
+modification: red
+deletion: orange
+untracked: darkgray
+unchanged: white
