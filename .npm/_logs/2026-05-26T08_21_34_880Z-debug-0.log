@@ -1,0 +1,56 @@
+0 verbose cli /opt/homebrew/Cellar/node/26.0.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.12.1
+2 info using node@v26.0.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/johnjson/Library/Caches/typescript/6.0/.npmrc
+5 silly config load:file:/Users/johnjson/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install types-registry@latest
+8 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+9 verbose logfile logs-max:10 dir:/Users/johnjson/.npm/_logs/2026-05-26T08_21_34_880Z-
+10 verbose logfile /Users/johnjson/.npm/_logs/2026-05-26T08_21_34_880Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4395630592 maxSize:1098907648 maxEntrySize:549453824
+13 silly logfile done cleaning log files
+14 silly packumentCache corgi:https://registry.npmjs.org/types-registry cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/npm 198ms
+16 http fetch GET 200 https://registry.npmjs.org/types-registry 217ms (cache updated)
+17 silly packumentCache corgi:https://registry.npmjs.org/types-registry set size:undefined disposed:false
+18 silly idealTree buildDeps
+19 silly fetch manifest types-registry@0.1.771
+20 silly packumentCache full:https://registry.npmjs.org/types-registry cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/types-registry 69ms (cache updated)
+22 silly packumentCache full:https://registry.npmjs.org/types-registry set size:undefined disposed:false
+23 silly placeDep ROOT types-registry@0.1.771 REPLACE for:  want: 0.1.771
+24 silly reify mark retired [
+24 silly reify   '/Users/johnjson/Library/Caches/typescript/6.0/node_modules/types-registry'
+24 silly reify ]
+25 silly reify moves {
+25 silly reify   '/Users/johnjson/Library/Caches/typescript/6.0/node_modules/types-registry': '/Users/johnjson/Library/Caches/typescript/6.0/node_modules/.types-registry-ykTocLke'
+25 silly reify }
+26 silly audit bulk request {
+26 silly audit   '@types/less': [ '3.0.8' ],
+26 silly audit   '@types/node': [ '25.8.0' ],
+26 silly audit   '@types/react': [ '19.2.14' ],
+26 silly audit   '@types/stylus': [ '0.48.43' ],
+26 silly audit   csstype: [ '3.2.3' ],
+26 silly audit   'undici-types': [ '7.24.6' ],
+26 silly audit   'types-registry': [ '0.1.771' ]
+26 silly audit }
+27 http cache types-registry@https://registry.npmjs.org/types-registry/-/types-registry-0.1.771.tgz 1ms (cache hit)
+28 silly tarball no local data for types-registry@https://registry.npmjs.org/types-registry/-/types-registry-0.1.771.tgz. Extracting by manifest.
+29 http fetch GET 200 https://registry.npmjs.org/types-registry/-/types-registry-0.1.771.tgz 60ms (cache miss)
+30 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 195ms
+31 silly audit report {}
+32 silly CHANGE node_modules/types-registry
+33 verbose cwd /Users/johnjson/Library/Caches/typescript/6.0
+34 verbose os Darwin 25.5.0
+35 verbose node v26.0.0
+36 verbose npm  v11.12.1
+37 notice
+37 notice New minor version of npm available! 11.12.1 -> 11.15.0
+37 notice Changelog: https://github.com/npm/cli/releases/tag/v11.15.0
+37 notice To update run: npm install -g npm@11.15.0
+37 notice  { force: true, Symbol(proc-log.meta): true }
+38 verbose exit 0
+39 info ok

@@ -1,0 +1,91 @@
+0 verbose cli /opt/homebrew/Cellar/node/26.0.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.12.1
+2 info using node@v26.0.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/johnjson/Library/Caches/typescript/6.0/.npmrc
+5 silly config load:file:/Users/johnjson/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install @types/less@ts6.0 @types/node@ts6.0 @types/react@ts6.0 @types/stylus@ts6.0
+8 verbose argv "install" "--ignore-scripts" "@types/less@ts6.0" "@types/node@ts6.0" "@types/react@ts6.0" "@types/stylus@ts6.0" "--save-dev" "--user-agent" "typesInstaller/6.0.3"
+9 verbose logfile logs-max:10 dir:/Users/johnjson/.npm/_logs/2026-05-15T02_12_28_186Z-
+10 verbose logfile /Users/johnjson/.npm/_logs/2026-05-15T02_12_28_186Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4395630592 maxSize:1098907648 maxEntrySize:549453824
+13 silly logfile done cleaning log files
+14 silly packumentCache corgi:https://registry.npmjs.org/@types%2fless cache-miss
+15 silly packumentCache corgi:https://registry.npmjs.org/@types%2fnode cache-miss
+16 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact cache-miss
+17 silly packumentCache corgi:https://registry.npmjs.org/@types%2fstylus cache-miss
+18 http fetch GET 200 https://registry.npmjs.org/@types%2freact 110ms (cache revalidated)
+19 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact set size:658935 disposed:false
+20 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 167ms (cache updated)
+21 silly packumentCache corgi:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+22 http fetch GET 200 https://registry.npmjs.org/@types%2fstylus 424ms (cache revalidated)
+23 silly packumentCache corgi:https://registry.npmjs.org/@types%2fstylus set size:22951 disposed:false
+24 http fetch GET 200 https://registry.npmjs.org/@types%2fless 446ms (cache revalidated)
+25 silly packumentCache corgi:https://registry.npmjs.org/@types%2fless set size:19074 disposed:false
+26 silly idealTree buildDeps
+27 silly fetch manifest @types/react@19.2.14
+28 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/@types%2freact 38ms (cache revalidated)
+30 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2588964 disposed:false
+31 silly fetch manifest @types/node@25.8.0
+32 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 163ms (cache updated)
+34 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+35 silly fetch manifest @types/stylus@0.48.43
+36 silly packumentCache full:https://registry.npmjs.org/@types%2fstylus cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/@types%2fstylus 350ms (cache revalidated)
+38 silly packumentCache full:https://registry.npmjs.org/@types%2fstylus set size:46505 disposed:false
+39 silly fetch manifest @types/less@3.0.8
+40 silly packumentCache full:https://registry.npmjs.org/@types%2fless cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/@types%2fless 31ms (cache revalidated)
+42 silly packumentCache full:https://registry.npmjs.org/@types%2fless set size:43156 disposed:false
+43 silly placeDep ROOT @types/less@3.0.8 OK for:  want: 3.0.8
+44 silly placeDep ROOT @types/node@25.8.0 OK for:  want: 25.8.0
+45 silly placeDep ROOT @types/react@19.2.14 OK for:  want: 19.2.14
+46 silly placeDep ROOT @types/stylus@0.48.43 OK for:  want: 0.48.43
+47 silly fetch manifest undici-types@>=7.24.0 <7.24.7
+48 silly packumentCache full:https://registry.npmjs.org/undici-types cache-miss
+49 silly fetch manifest csstype@^3.2.2
+50 silly packumentCache full:https://registry.npmjs.org/csstype cache-miss
+51 http fetch GET 200 https://registry.npmjs.org/csstype 23ms (cache revalidated)
+52 silly packumentCache full:https://registry.npmjs.org/csstype set size:274189 disposed:false
+53 http fetch GET 200 https://registry.npmjs.org/undici-types 35ms (cache updated)
+54 silly packumentCache full:https://registry.npmjs.org/undici-types set size:undefined disposed:false
+55 silly placeDep ROOT undici-types@7.24.6 OK for: @types/node@25.8.0 want: >=7.24.0 <7.24.7
+56 silly placeDep ROOT csstype@3.2.3 OK for: @types/react@19.2.14 want: ^3.2.2
+57 silly reify moves {}
+58 silly audit bulk request {
+58 silly audit   'types-registry': [ '0.1.769' ],
+58 silly audit   '@types/less': [ '3.0.8' ],
+58 silly audit   '@types/node': [ '25.8.0' ],
+58 silly audit   '@types/react': [ '19.2.14' ],
+58 silly audit   '@types/stylus': [ '0.48.43' ],
+58 silly audit   'undici-types': [ '7.24.6' ],
+58 silly audit   csstype: [ '3.2.3' ]
+58 silly audit }
+59 http cache @types/stylus@https://registry.npmjs.org/@types/stylus/-/stylus-0.48.43.tgz 0ms (cache hit)
+60 http cache @types/less@https://registry.npmjs.org/@types/less/-/less-3.0.8.tgz 0ms (cache hit)
+61 http cache undici-types@https://registry.npmjs.org/undici-types/-/undici-types-7.24.6.tgz 0ms (cache hit)
+62 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-25.8.0.tgz 0ms (cache hit)
+63 http cache csstype@https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz 0ms (cache hit)
+64 http cache @types/react@https://registry.npmjs.org/@types/react/-/react-19.2.14.tgz 0ms (cache hit)
+65 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-7.24.6.tgz. Extracting by manifest.
+66 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-25.8.0.tgz. Extracting by manifest.
+67 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-7.24.6.tgz 37ms (cache miss)
+68 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-25.8.0.tgz 78ms (cache miss)
+69 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 187ms
+70 silly audit report {}
+71 silly ADD node_modules/csstype
+72 silly ADD node_modules/undici-types
+73 silly ADD node_modules/@types/stylus
+74 silly ADD node_modules/@types/react
+75 silly ADD node_modules/@types/node
+76 silly ADD node_modules/@types/less
+77 verbose cwd /Users/johnjson/Library/Caches/typescript/6.0
+78 verbose os Darwin 25.5.0
+79 verbose node v26.0.0
+80 verbose npm  v11.12.1
+81 verbose exit 0
+82 info ok

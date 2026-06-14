@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@astrojs/upgrade": "^0.7.2"
+  },
+  "_npx": {
+    "packages": [
+      "@astrojs/upgrade"
+    ]
+  }
+}
